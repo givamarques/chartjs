@@ -6,9 +6,11 @@ const BarChart = () => {
         <div>
             <Bar
                 data={{
-                    label: ['Red', 'Blue', 'Green', 'Yellow', 'Purple', 'Orange'],
+                    label: ['2017', '2018', '2019', '2020', '2021'],
                     datasets: [{
-                        label: '# of votes'
+                        label: '# of repositories',
+                        data: [12, 19, 3, 5, 2, 6],
+                        backgroundColor: 'lightBlue',
                     }],
                 }}
                 height={400}
